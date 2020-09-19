@@ -3,5 +3,5 @@ Extremely simple question just return weather the amount of times the robot went
 """
 
 
-def judgeCircle(self, moves: str) -> bool:
+def judgeCircle(moves: str) -> bool:
     return moves.count('R') == moves.count('L') and moves.count('U') == moves.count('D')
