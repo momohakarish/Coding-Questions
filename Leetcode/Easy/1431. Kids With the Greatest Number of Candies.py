@@ -9,10 +9,5 @@ Space complexity is O(n) with n being the length of the array
 
 
 def kidsWithCandies(candies: List[int], extraCandies: int) -> List[bool]:
-    output = []
     max_candies = max(candies)
-
-    for candy in candies:
-        output.append(candy + extraCandies >= max_candies)
-
-    return output
+    return [candy + extraCandies >= max_candies for candy in candies]
