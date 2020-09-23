@@ -1,5 +1,7 @@
 """
 The idea is simple just iterate through the list creating a string representing a binary number and then convert it into an int and return
+Time Complexity is O(n) with n being the length of the list
+Space complexity is O(n)
 """
 
 
