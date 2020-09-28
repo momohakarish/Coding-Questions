@@ -59,7 +59,3 @@ def traverse(root: TreeNode, number: int) -> int:
 
 def sumRootToLeaf(root: TreeNode) -> int:
     return traverse(root, 0)
-
-"""
-Runtime: 32 ms, faster than 59.49% of Python3 online submissions for Average Salary Excluding the Minimum and Maximum Salary.
-Memory Usage: 13.8 MB, less than 77.07% of Python3 online submissions for Average Salary Excluding the Minimum and Maximum Salary."""
