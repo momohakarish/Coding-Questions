@@ -1,7 +1,7 @@
 from typing import List
 
 """
-The idea is to do a BFS and each time we reach a 1 we go and recursively and delete all neighbouring ones and that way we can treat a 1 as an island.
+The idea is to do a BFS and each time we reach a 1 we go and recursively delete all neighbouring ones and that way we can treat a 1 as an island.
 We increment a counter each time we encounter a 1 and simply return it at the end.
 """
 
