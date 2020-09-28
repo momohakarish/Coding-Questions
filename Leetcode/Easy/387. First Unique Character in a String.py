@@ -1,7 +1,7 @@
 from collections import Counter
 
 """
-The idea is simple. Count how much times each character appears in the string and then iterate through the string and check which character appears only ones.
+The idea is simple. Count how many times each character appears in the string and then iterate through the string and check which character appears only once first.
 Time and Space complexity are both O(n)
 """
 
